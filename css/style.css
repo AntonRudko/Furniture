@@ -69,3 +69,38 @@ h3 {
 	gap: 0 30px;
 	align-items: center;
 }
+
+.help {
+	margin-bottom: 140px;
+}
+.help__inner {
+	background-color: #154444;
+	display: flex;
+	color: #ffffff;
+}
+.help__content {
+	padding-top: 100px;
+	padding-left: 100px;
+}
+.help__title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 56px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.help__text {
+	max-width: 375px;
+	margin-bottom: 35px;
+}
+.help__button {
+	display: inline-block;
+	padding: 15px 25px;
+	background-color: #ffffff;
+	color: #154444;
+	font-weight: 700;
+	transition: 0.3s all ease-in-out;
+}
+.help__button:hover {
+	background-color: #154444;
+	color: #ffffff;
+}
