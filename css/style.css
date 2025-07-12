@@ -441,3 +441,68 @@ h3 {
 	display: flex;
 	gap: 0 5px;
 }
+.news {
+	margin-bottom: 140px;
+}
+.news__inner {
+	background-color: #f4f6f6;
+	padding-block: 68px 55px;
+}
+
+.news__title {
+	display: block;
+	color: #222;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	max-width: 605px;
+	margin: 0 auto 20px auto;
+}
+.news__text {
+	display: block;
+	max-width: 493px;
+	margin: 0 auto;
+	color: #222;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.news__form {
+	background-color: #ffffff;
+	max-width: 471px;
+	margin: 0 auto;
+	padding: 6px 12px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.news__input--wrap {
+	display: flex;
+	text-align: center;
+	gap: 0 12px;
+	flex: 1;
+	/* 
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0%; 
+	*/
+}
+
+.news__input {
+	padding: 12px 16px;
+	color: #bababa;
+	border: none;
+	flex: 1;
+}
+/* ПРИБРАВ ОТУ СИНЮ РАМКУ ПРИ ФОКУСІ */
+.news__input:focus {
+	outline: none;
+	border-color: #154444; /* або свій стиль */
+	box-shadow: 0 0 0 2px rgba(0, 150, 136, 0.2); /* м’яка тінь замість outline */
+}
+.news__button {
+	background-color: #154444;
+	color: #ffffff;
+	font-weight: 500;
+	padding: 15px 33px;
+}
