@@ -177,3 +177,116 @@ h3 {
 	gap: 0 30px;
 	margin-bottom: 40px;
 }
+/* slider */
+.furniture__title {
+	color: #242424;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.furniture__disc {
+	color: #383738;
+	font-size: 20px;
+	line-height: 27px;
+	margin-bottom: 80px;
+	max-width: 820px;
+}
+.furniture {
+	margin-bottom: 140px;
+}
+.furniture__text--header {
+	display: flex;
+	justify-content: space-between;
+}
+.swiper__btns {
+	display: flex;
+	gap: 0 20px;
+	align-items: center;
+}
+
+.furniture__slider {
+	/* це для box-shadow бо swiper обрізає його */
+	padding-inline: 20px;
+	padding-block: 40px; /* зверху і знизу */
+}
+.furniture__slide {
+	/* зміна обрахунку ширини контейнера-контенту */
+	box-sizing: border-box;
+	box-shadow: 0px 13px 26px 0px rgba(0, 0, 0, 0.07);
+	overflow: hidden;
+	max-width: 380px;
+}
+/* .furniture__item img {
+	object-fit: cover;
+	width: 100%;
+	display: block;
+} */
+
+.slide__description {
+	margin: 30px 24px 27px 24px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.slide__title {
+	color: #242424;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.slide__price {
+	color: #154444;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.furniture__buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	gap: 20px;
+}
+
+.buttons__wrap {
+	display: flex;
+	gap: 10px;
+}
+.furniture__btn.choose {
+	background-color: #ef5423;
+}
+.furniture__btn {
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #ecf4ff;
+	padding: 10px;
+	cursor: pointer;
+	transition: 0.3s all ease-in-out;
+}
+.furniture__btn:hover {
+	scale: 1.1;
+	background-color: gray;
+}
+
+.furniture__btn img {
+	display: block;
+	width: 18px;
+	height: 18px;
+}
+
+.furniture__btn--buy {
+	background-color: #154444;
+	color: #ffffff;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: 500;
+	transition: 0.3s all ease-in-out;
+}
+
+.furniture__btn--buy:hover {
+	background-color: #0f3333;
+	scale: 1.1;
+}
+/* slider */
