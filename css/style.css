@@ -506,3 +506,75 @@ h3 {
 	font-weight: 500;
 	padding: 15px 33px;
 }
+
+.footer {
+	position: relative;
+	font-size: 16px;
+	color: #fff;
+	background-color: #305f64;
+}
+.footer--top {
+	padding-top: 102px;
+	margin-bottom: 40px;
+}
+.footer__info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.footer__info-item {
+	display: flex;
+	flex-direction: column;
+	gap: 16px 0;
+}
+.footer__logo {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+.footer__text {
+	max-width: 338px;
+	margin-bottom: 40px;
+}
+.footer__follow {
+	margin-bottom: 20px;
+}
+.footer__socialnet {
+	display: flex;
+	gap: 0 15px;
+}
+.footer__title {
+	margin-bottom: 24px;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+.subscribe__text {
+	max-width: 240px;
+}
+.footer__line {
+	position: absolute;
+	background-color: #407980;
+	left: 0;
+	width: 100vw;
+	height: 2px;
+	margin: 0;
+}
+.footer--bottom {
+	text-align: center;
+	margin: 0 auto;
+	padding-block: 20px;
+}
+.footer__form {
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	background-color: #ffffff;
+	max-width: 253px;
+	justify-content: space-between;
+	padding: 10px 12px;
+}
+.footer__input {
+	border: none;
+	padding: 6px 12px;
+	flex: 1;
+}
