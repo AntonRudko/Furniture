@@ -21,3 +21,14 @@ const swiper = new Swiper('.swiper', {
 	// 	el: '.swiper-scrollbar',
 	// },
 })
+
+const btn = document.querySelector('.heder__menu')
+const overlay = document.querySelector('.heder__menu-overlay')
+const nav = document.querySelector('.nav__list')
+const body = document.querySelector('.body')
+
+btn.addEventListener('click', () => {
+	nav.classList.toggle('menu-open')
+	overlay.classList.toggle('menu-open')
+	body.classList.toggle('active')
+})
