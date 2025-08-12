@@ -20,6 +20,31 @@ const swiper = new Swiper('.swiper', {
 	// scrollbar: {
 	// 	el: '.swiper-scrollbar',
 	// },
+	// Налаштування для різних розмірів екрану
+	breakpoints: {
+		// При ширині екрану менше 890px
+		890: {
+			slidesPerView: 3,
+			spaceBetween: 30,
+		},
+
+		858: {
+			slidesPerView: 2,
+			spaceBetween: 30,
+		},
+		450: {
+			slidesPerView: 1,
+			spaceBetween: 30,
+		},
+		440: {
+			slidesPerView: 1,
+			spaceBetween: 20,
+		},
+		0: {
+			slidesPerView: 1,
+			spaceBetween: 20,
+		},
+	},
 })
 
 const btn = document.querySelector('.heder__menu')
